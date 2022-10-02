@@ -6220,7 +6220,7 @@
       var array = myObject[i].name.split(',');
       for(var j = 0; j < array.length; j++){
         if(capitalizeFirstLetter(input.value).trim() == array[j]){
-          div.innerHTML = '<p> Your ' + array[j] + ' will rock as ' + options[Math.floor(Math.random() * 28)] +'</p>';
+          div.innerHTML = '<p class="text-center text-lg mx-5"> Your ' + '<span class="neon-text">' + array[j] + '</span>' + ' will rock as ' + '<span class="neon-text">' + options[Math.floor(Math.random() * 28)] + '</span>' + '</p>';
 
           input.value = "";
           document.querySelector("#result").innerHTML = "";
