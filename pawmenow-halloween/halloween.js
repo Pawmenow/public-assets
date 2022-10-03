@@ -6265,16 +6265,19 @@
   }
 
   function showResults(val) {
-
-    res = document.getElementById("result");
-    res.style.display = "block";
-    res.innerHTML = '';
-    let list = '';
-    let terms = autocompleteMatch(val);
-    for (i=0; i<terms.length; i++) {
-      list += '<li onclick="completeInputValue('+ "'" + terms[i] + "'" +')">' + terms[i] + '</li>';
+    if(!val == ''){
+      res = document.getElementById("result");
+      res.style.display = "block";
+      res.innerHTML = '';
+      let list = '';
+      let terms = autocompleteMatch(val);
+      for (i=0; i<terms.length; i++) {
+        list += '<li onclick="completeInputValue('+ "'" + terms[i] + "'" +')">' + terms[i] + '</li>';
+      }
+      res.innerHTML = '<ul>' + list + '</ul>';
+    } else {
+      res.style.display = "none";
     }
-    res.innerHTML = '<ul>' + list + '</ul>';
   }
 
   function completeInputValue(val) {
