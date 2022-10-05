@@ -6190,7 +6190,7 @@
     }
   ];
 
-  var options = ['a Phantom 👻', 'a Flower 🌼', 'a Bat 🦇', 'a Cat 🐈', 'a Mouse 🐭', 'a Butterfly 🦋', 'a Pumpkin 🎃', 'a Rabbit 🐰', 'a Unicorn🦄', 'a Sheep 🐑', 'a Moose or Deer 🦌', 'a HotDog 🌭', 'a Vampire 🧛🏻‍♀️', 'a Strawberry 🍓', 'Scooby-Doo!', 'a Minion character! Banananaaa 🍌', 'Superman', 'a Surfer 🏄‍♂️', 'a Lion 🦁', 'Santa 🎅🏻', 'a Shark 🦈', 'Stitch from Lilo & Stitch', 'a Dinosaur 🦖', 'a Lobster 🦞', 'a Bee 🐝', 'an Angel 👼🏻', 'a Fairy 🧚‍♂️', 'with a stylish Halloween sweater 🧶', 'with a Halloween-themed bandana! Go simple this year and choose the best bandana for your dog.'];
+  var options = ['a Phantom 👻', 'a Flower 🌼', 'a Bat 🦇', 'a Cat 🐈', 'a Mouse 🐭', 'a Butterfly 🦋', 'a Pumpkin 🎃', 'a Rabbit 🐰', 'a Unicorn🦄', 'a Sheep 🐑', 'a Moose or Deer 🦌', 'a HotDog 🌭', 'a Vampire 🧛🏻‍♀️', 'a Strawberry 🍓', 'Scooby-Doo!', 'a Minion character! Banananaaa 🍌', 'Superman', 'a Surfer 🏄‍♂️', 'a Lion 🦁', 'Santa 🎅🏻', 'a Shark 🦈', 'Stitch from Lilo & Stitch', 'a Dinosaur 🦖', 'a Lobster 🦞', 'a Bee 🐝', 'an Angel 👼🏻', 'a Fairy 🧚‍♂️', 'a stylish dog with a Halloween sweater 🧶', 'a stilish dog with a Halloween-themed bandana! Go simple this year and choose the best bandana for your dog.'];
 
    var count = Object.keys(myObject).length;
    var input = document.querySelector('#input');
