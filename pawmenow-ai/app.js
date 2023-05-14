@@ -12513,7 +12513,7 @@ form.addEventListener('submit', async (e) => {
 
   const button = document.querySelector('button[type="submit"]');
 
-  const url = 'http://localhost:3000/api/post';
+  const url = form.getAttribute("url");
   const data = { param1, param2, param3, param4, param5 };
 
   if(param1 == 'Select Dog Breed'){
